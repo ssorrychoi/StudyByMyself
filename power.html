@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>블록체인 보안 웹</title>
+    <script src="javascript.js"></script>
+    <style>
+      * {
+        background: rgb(208, 158, 255);
+      }
+      #number{
+        background:white;
+      }
+      header{
+        background:rgb(101, 5, 165);
+        color:white;
+        font-size:30px;
+        padding: 5%;
+        text-align: center;
+      }
+      #header{
+        padding:2% 0%;
+      }
+      #select_box{
+        width:90px;
+        height:40px;
+        background:rgb(101, 5, 165);
+        color:white;
+        font-size:15px;
+      }
+      #select_div{
+        padding:0% 0% 5% 0%;
+      }
+      #number{
+        width:100%;
+        height:30px;
+        font-size:15px;
+      }
+      #submit_btn{
+        background:rgb(101, 5, 165);
+        width:65px;
+        height:35px;
+        color:white;
+        font-size:15px;
+      }
+      #btn_div{
+        padding:5% 0% 5% 0%;
+      }
+      #example{
+        color:rgb(105, 101, 101);
+      }
+      img{
+        width:400px;
+        height:350px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id=header>
+      <header>
+        자동차 일반 사양 정보 조회
+      </header>
+    </div>
+    <div id="select_div">
+      <select name="num" id="select_box">
+        <option value="조회타입">조회타입</option>
+        <option value="차량번호">차량번호</option>
+        <option value="차대번호">차대번호</option>
+      </select>
+    </div>
+    <input id="number" type="text" placeholder="차량(대)번호를 띄워 쓰기 없이 입력하세요. 예)01가1234">
+    <div id="btn_div">
+      <button id="submit_btn" onclick="submit_btn_handler()">조회</button>    <!--뒤에서 수정될 부분-->
+    </div>
+    <div id="example">
+        <div> 조회결과 예</div>
+        <img src="image/example.png">
+    </div>
+  </body>
+</html>
