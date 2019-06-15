@@ -10,8 +10,8 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src="javascript.js"></script>
-  <!-- <script src="jQuery.js"></script> -->
+  <!-- <script src="javascript.js"></script> -->
+  <script src="jQuery.js"></script>
   <style>
   body {
     font: 400 15px Lato, sans-serif;
@@ -223,9 +223,9 @@
 
 
 
+<!----------------------------------------------- JavaScript ----------------------------------------------->
 
-
-<div class="jumbotron text-center">
+<!-- <div class="jumbotron text-center">
   <h1>Company</h1> 
   <p>We specialize in blablabla</p> 
   <form>
@@ -236,10 +236,23 @@
       </div>
     </div>
   </form>
-</div>
+</div> -->
 
+<!----------------------------------------------- jQuery ----------------------------------------------->
 
-
+<div class="jumbotron text-center">
+        <h1>Company</h1> 
+        <p>We specialize in blablabla</p> 
+        <form>
+          <div id="subscribe" class="input-group">
+            <input id="subs_email" type="email" class="form-control" size="50" placeholder="Email Address" required>
+            <div class="input-group-btn">
+              <button id="subs" type="button" class="btn btn-danger">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      
 
 
 <!-- Container (About Section) -->
@@ -289,7 +302,7 @@
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <span id="love_icon" class="glyphicon glyphicon-heart logo-small"></span>      <!-- jQuery로 오픈하기. -->
       <h4>LOVE</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
@@ -461,7 +474,7 @@
 
 <!---------------------------------------------- Javascirpt ---------------------------------------------->
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
+<!-- <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
@@ -490,10 +503,10 @@
     </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!---------------------------------------------- jQuery ---------------------------------------------->
-<!-- 
+
     <div id="contact" class="container-fluid bg-grey">
         <h2 class="text-center">CONTACT</h2>
         <div class="row">
@@ -523,7 +536,7 @@
           </div>
           </div>
         </div>
-      </div> -->
+      </div>
 
 
 

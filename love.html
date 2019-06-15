@@ -2,12 +2,14 @@
 <html>
   <head>
     <title>블록체인 보안 웹</title>
-    <script src="javascript.js"></script>
+    <!-- jquery를 cdn으로 가져와야한다! -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="jquery.js"></script>
     <style>
       * {
         background: rgb(208, 158, 255);
       }
-      #number{
+      #car_number{
         background:white;
       }
       header{
@@ -30,7 +32,7 @@
       #select_div{
         padding:0% 0% 5% 0%;
       }
-      #number{
+      #car_number{
         width:100%;
         height:30px;
         font-size:15px;
@@ -45,7 +47,7 @@
       #btn_div{
         padding:5% 0% 5% 0%;
       }
-      #example{
+      #example_table{
         color:rgb(105, 101, 101);
       }
       img{
@@ -67,12 +69,14 @@
         <option value="차대번호">차대번호</option>
       </select>
     </div>
-    <input id="number" type="text" placeholder="차량(대)번호를 띄워 쓰기 없이 입력하세요. 예)01가1234">
+    <input id="car_number" type="text" placeholder="차량(대)번호를 띄워 쓰기 없이 입력하세요. 예)01가1234">
+    
     <div id="btn_div">
-      <button id="submit_btn" >조회</button>    <!--뒤에서 수정될 부분-->
-    </div>
-    <div id="example">
-        <div> 조회결과 예</div>
+        <button id="submit_btn">조회</button>
+   </div>
+  
+    <div id="example_table">
+        조회결과 예<br>
         <img src="image/example.png">
     </div>
   </body>
