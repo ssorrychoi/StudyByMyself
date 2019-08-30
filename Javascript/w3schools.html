@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>W3schools.com</title>
+    <style>
+        h1{
+          color:cornflowerblue;  
+        }
+    </style>
+</head>
+<body>
+    <!-- JS HOME -->
+    <h1>JS HOME</h1>
+    <button type="button" onclick="document.getElementById('demo_1').innerHTML=Date()">
+        Click me to display Date and Time.
+    </button>
+    <p id="demo_1"></p>
+    <hr/>
+
+    <!-- JS Introduction -->
+    <h1>JS Introduction</h1>
+    <p id="demo_2">JS can change HTML content!</p>
+    <button onclick="document.getElementById('demo_2').innerHTML='Changed HTML content'">change HTML content</button>
+    <br><br>
+
+    <p id="demo_3">JS can change CSS styles.</p>
+    <button onclick="document.getElementById('demo_3').style.fontSize='40px'">change CSS</button>
+
+    <p id="demo_4">JS can change HTML Elements</p>
+    <button onclick="document.getElementById('demo_4').style.display='none'">change HTML elements</button>
+    <hr/>
+
+    <!-- JS where to -->
+    <h1>JS where to</h1>
+
+    <h2>JS in body</h2>
+    <p id="demo_5"></p>
+    <script>
+        document.getElementById('demo_5').innerHTML="This tag is in body";
+    </script>
+    <hr/>
+
+    <!-- JS output -->
+    <h1>JS output</h1>
+
+    <h2>JS Display possibilities</h2>
+    <ol>
+        <li>innerHTML</li>
+        <li>document.write()</li>
+        <li>window.alert()</li>
+        <li>console.log()</li>
+    </ol>
+
+    <h2>Using innerHTML</h2>
+    <p id="demo_6">How to use innerHTMl</p>
+    <button onclick="document.getElementById('demo_6').innerHTML='Used innerHTML'">innerHTML</button>
+
+    <h2>Using document.write()</h2>
+    <script>
+        document.write('This is how to use document.write()');
+    </script>
+
+    <h2>Using window.alert()</h2>
+    <button onclick="window.alert('This is how to use window.alert()')">alter</button>
+
+    <h2>Using console.log()</h2>
+    <script>
+        console.log("This is how to use console.log()");
+    </script>
+    <hr/>
+
+    <!-- JS syntax -->
+    <h1>JS Syntax</h1>
+
+    <h2>JS Values</h2>
+    <p>Fixed values are called<b>literals</b>. Variable values are called <b>variables</b>.</p>
+
+    <h2>JS Literals</h2>
+    <p id="demo_7"></p>
+    <script>
+        document.getElementById('demo_7').innerHTML=10.5;
+    </script>
+
+    <h2>JS Variables</h2>
+    <p id="demo_8"></p>
+    <script>
+        let i;
+        i=10;
+        document.getElementById('demo_8').innerHTML=i;
+    </script>
+
+    <h2>JS Operators</h2>
+    <p id="demo_9"></p>
+    <script>
+        document.getElementById('demo_9').innerHTML=5+6*10;
+    </script>
+
+    <h2>JS keywords</h2>
+    <p id="demo_10"></p>
+    <script>
+        let x,y;
+        x=10;
+        y=5+6;
+        z=x*y;
+        document.getElementById('demo_10').innerHTML=z;
+    </script>
+    <hr/>
+
+    <!-- JS Variables -->
+    <h1>JS Variables</h1>
+
+    <h2>One statement, Many variables</h2>
+    <p id="demo_11"></p>
+    <script>
+        let a,b,c;
+        a="Wurrup";
+        b="Guys";
+        c=10000000;
+        document.getElementById('demo_11').innerHTML=a+" "+b+" "+c;
+    </script>
+
+
+</body>
+</html>
