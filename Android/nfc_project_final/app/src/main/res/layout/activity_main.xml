@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcba03">
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="출퇴근 관리 시스템"
+        android:background="#171780"
+        android:textColor="#fafafa"
+        android:textSize="25sp"
+        android:fontFamily="@font/bmjua01"
+        android:gravity="center" />
+    <TextView
+        android:background="#171780"
+        android:textColor="#fafafa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사원증을 태그 해주세요."
+        android:fontFamily="@font/bmjua01"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+    <LinearLayout
+
+        android:background="#268c30"
+        android:layout_margin="20dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20sp"
+        android:paddingLeft="20sp">
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#fafafa"
+        android:text="엔-에프씨"
+        android:fontFamily="@font/euljiro01"
+        android:textSize="25sp" />
+    <TextView
+
+        android:textColor="#fafafa"
+        android:id="@+id/nfc_contents"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/euljiro01"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="25sp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#268c30"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="20sp"
+        android:layout_marginTop="20sp" >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#fafafa"
+            android:text="존함"
+            android:fontFamily="@font/euljiro01"
+            android:textSize="25sp" />
+
+        <TextView
+            android:textColor="#fafafa"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/euljiro01"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#268c30"
+        android:layout_margin="20dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="20sp"
+        android:layout_marginTop="20sp" >
+    <TextView
+        android:layout_width="120dp"
+        android:text="시간"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:fontFamily="@font/euljiro01"
+        android:textColor="#fafafa"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:fontFamily="@font/euljiro01"
+        android:textColor="#fafafa"
+        android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#268c30"
+        android:layout_margin="20dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="20sp"
+        android:layout_marginTop="20sp" >
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="근무상태"
+            android:textColor="#fafafa"
+            android:fontFamily="@font/euljiro01"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/euljiro01"
+            android:textColor="#fafafa"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>
+
